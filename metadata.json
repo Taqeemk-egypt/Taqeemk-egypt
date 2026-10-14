@@ -1,0 +1,8 @@
+{
+  "name": "Taqeemk - Professional Bio Link & Portfolio Platform",
+  "description": "Next-generation professional bio link, portfolio showcase, dynamic list-based linktree alternative with smart QR codes, analytics, and instant mobile wallet activation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

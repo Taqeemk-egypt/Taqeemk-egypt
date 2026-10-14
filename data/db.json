@@ -1,0 +1,259 @@
+{
+  "users": [
+    {
+      "id": "user_superadmin_01",
+      "email": "elemamyoussef34@gmail.com",
+      "username": "youssef",
+      "role": "super_admin",
+      "paymentStatus": "lifetime_unlimited",
+      "createdAt": "2026-10-14T16:08:19.371Z"
+    },
+    {
+      "id": "user_demo_sarah",
+      "email": "sarah.designer@example.com",
+      "username": "sarah_designs",
+      "role": "user",
+      "paymentStatus": "pending",
+      "paymentReference": "VOD-88492019",
+      "paymentPhone": "01099887766",
+      "paymentSubmittedAt": "2026-10-14T14:08:19.372Z",
+      "paymentAmount": 100,
+      "createdAt": "2026-10-11T16:08:19.372Z"
+    }
+  ],
+  "passwords": {
+    "user_superadmin_01": "$2b$10$AUit7.HkupL05F9xUaPpZeHyd6fI2xryn8Pls7TkmREI92MVYmSSK",
+    "user_demo_sarah": "$2b$10$TzX6TmswJ2M.ae8t/r2dwuLSZN8bzWycuIIQiCaYHf/OkuGZzv8sK"
+  },
+  "profiles": {
+    "user_superadmin_01": {
+      "id": "prof_user_superadmin_01",
+      "userId": "user_superadmin_01",
+      "username": "youssef",
+      "displayName": "Youssef El-Emam",
+      "bio": "Founder & Full-Stack Security Engineer @ Taqeemk | Building scalable web platforms & digital experiences",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "coverUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80",
+      "themeId": "dark_onyx",
+      "customAccentColor": "#10b981",
+      "views": 1424,
+      "verified": true,
+      "dynamicQrDestination": "",
+      "dynamicQrScans": 89,
+      "updatedAt": "2026-10-14T17:05:48.206Z",
+      "socials": [
+        {
+          "platform": "whatsapp",
+          "url": "https://wa.me/201515926729",
+          "label": "WhatsApp"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com",
+          "label": "GitHub"
+        },
+        {
+          "platform": "linkedin",
+          "url": "https://linkedin.com",
+          "label": "LinkedIn"
+        },
+        {
+          "platform": "x",
+          "url": "https://x.com",
+          "label": "X (Twitter)"
+        },
+        {
+          "platform": "email",
+          "url": "mailto:elemamyoussef34@gmail.com",
+          "label": "Email"
+        }
+      ],
+      "lists": [
+        {
+          "id": "list_featured",
+          "title": "🌟 Featured Highlights",
+          "description": "Top priority links, latest releases & portfolio work",
+          "isCollapsed": false,
+          "order": 1,
+          "links": [
+            {
+              "id": "lnk_1",
+              "title": "🚀 Taqeemk SaaS Platform",
+              "url": "https://taqeemk.app",
+              "subtitle": "Next-Gen Bio Link & Portfolio Engine",
+              "isActive": true,
+              "clicks": 452,
+              "highlight": "glow",
+              "type": "portfolio",
+              "createdAt": "2026-10-14T16:08:19.371Z"
+            },
+            {
+              "id": "lnk_2",
+              "title": "💬 Direct WhatsApp Consultation",
+              "url": "https://wa.me/201515926729",
+              "subtitle": "Chat directly for custom dev projects",
+              "isActive": true,
+              "clicks": 310,
+              "highlight": "glow",
+              "type": "whatsapp",
+              "createdAt": "2026-10-14T16:08:19.371Z"
+            }
+          ]
+        },
+        {
+          "id": "list_portfolio",
+          "title": "تتتن",
+          "description": "Client showcases, case studies & open source repositories",
+          "isCollapsed": false,
+          "order": 2,
+          "links": [
+            {
+              "id": "lnk_1791997570784_nlkw",
+              "title": "💬 تواصل معنا مباشرة عبر واتساب",
+              "url": "https://wa.me/201515926729",
+              "subtitle": "محادثة فورية مباشرة بضغطة زر دون الحاجة لتسجيل الرقم",
+              "isActive": true,
+              "clicks": 0,
+              "highlight": "pulse",
+              "type": "whatsapp",
+              "createdAt": "2026-10-14T17:06:10.784Z"
+            },
+            {
+              "id": "lnk_1791997584111_mmfj",
+              "title": "⭐ قيّمنا على جوجل بخمس نجوم",
+              "url": "https://g.page/r/",
+              "subtitle": "رابط مباشر لكتابة تقييم 5 نجوم على خرائط جوجل لزيادة ثقة عملائك",
+              "isActive": true,
+              "clicks": 0,
+              "highlight": "glow",
+              "type": "link",
+              "createdAt": "2026-10-14T17:06:24.111Z"
+            }
+          ]
+        },
+        {
+          "id": "list_1791995019918",
+          "title": "📁 New Category List",
+          "description": "Add relevant links below",
+          "isCollapsed": false,
+          "order": 3,
+          "links": []
+        },
+        {
+          "id": "list_1791997456770",
+          "title": "📁 قسم روابط جديد",
+          "description": "أضف الروابط وقنوات التواصل ذات الصلة هنا",
+          "isCollapsed": false,
+          "order": 4,
+          "links": []
+        }
+      ]
+    },
+    "user_demo_sarah": {
+      "id": "prof_user_demo_sarah",
+      "userId": "user_demo_sarah",
+      "username": "sarah_designs",
+      "displayName": "Sarah Mansour",
+      "bio": "Senior UI/UX Designer & Brand Strategist | Crafting award-winning digital experiences",
+      "avatarUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80",
+      "themeId": "sunset_gradient",
+      "views": 382,
+      "verified": true,
+      "dynamicQrScans": 42,
+      "updatedAt": "2026-10-14T16:08:19.490Z",
+      "socials": [
+        {
+          "platform": "instagram",
+          "url": "https://instagram.com",
+          "label": "Instagram"
+        },
+        {
+          "platform": "linkedin",
+          "url": "https://linkedin.com",
+          "label": "LinkedIn"
+        },
+        {
+          "platform": "whatsapp",
+          "url": "https://wa.me/201515926729",
+          "label": "WhatsApp"
+        }
+      ],
+      "lists": [
+        {
+          "id": "list_sarah_1",
+          "title": "🎨 Design Portfolios & Case Studies",
+          "order": 1,
+          "links": [
+            {
+              "id": "lnk_s1",
+              "title": "Behance Masterpieces",
+              "url": "https://behance.net",
+              "subtitle": "Mobile UI concepts & SaaS Design Systems",
+              "isActive": true,
+              "clicks": 120,
+              "highlight": "glow",
+              "type": "portfolio",
+              "createdAt": "2026-10-14T16:08:19.490Z"
+            },
+            {
+              "id": "lnk_s2",
+              "title": "Figma Community Files",
+              "url": "https://figma.com",
+              "subtitle": "Free UI kits & icons for web designers",
+              "isActive": true,
+              "clicks": 85,
+              "type": "link",
+              "createdAt": "2026-10-14T16:08:19.490Z"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "qrLogs": [],
+  "auditLogs": [
+    {
+      "id": "log_1791994854364_60f2",
+      "action": "LOGIN_SUCCESS",
+      "actorEmail": "elemamyoussef34@gmail.com",
+      "details": "Logged in with role super_admin",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-10-14T16:20:54.364Z"
+    },
+    {
+      "id": "log_1791994105247_mwv8",
+      "action": "LOGIN_SUCCESS",
+      "actorEmail": "elemamyoussef34@gmail.com",
+      "details": "Logged in with role super_admin",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-10-14T16:08:25.247Z"
+    }
+  ],
+  "settings": {
+    "lifetimeFeeEGP": 100,
+    "walletNumber": "01515926729",
+    "walletHolderName": "Taqeemk Payments (Official Mobile Wallet)",
+    "acceptedWallets": [
+      "Vodafone Cash",
+      "InstaPay Egypt",
+      "Orange Cash",
+      "Etisalat Cash",
+      "WE Pay"
+    ],
+    "sandboxAutoVerify": false,
+    "maintenanceMode": false,
+    "announcement": "Welcome to Taqeemk! Transfer 100 EGP to 01515926729 for instant lifetime access."
+  },
+  "tokens": {
+    "tqk_6q2fqm0ibvumv8b0sym": {
+      "userId": "user_superadmin_01",
+      "role": "super_admin",
+      "expiresAt": 1792598905246
+    },
+    "tqk_rvif5j3nqfamv8bguzg": {
+      "userId": "user_superadmin_01",
+      "role": "super_admin",
+      "expiresAt": 1792599654364
+    }
+  }
+}
