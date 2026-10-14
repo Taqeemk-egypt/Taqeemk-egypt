@@ -61,7 +61,23 @@ export const AuthModal: React.FC<AuthModalProps> = ({
     }
   };
 
-  // Quick fill helper for Super Admin
+  // Quick direct login for Super Admin
+  const loginAsSuperAdmin = async () => {
+    setMode('login');
+    setEmail('elemamyoussef34@gmail.com');
+    setPassword('KkK#6060');
+    setErrorMsg(null);
+    setIsSubmitting(true);
+    try {
+      await login('elemamyoussef34@gmail.com', 'KkK#6060');
+      onClose();
+    } catch (err: any) {
+      setErrorMsg(err.message || 'فشل تسجيل الدخول كمدير عام.');
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   const fillSuperAdmin = () => {
     setMode('login');
     setEmail('elemamyoussef34@gmail.com');
@@ -235,8 +251,9 @@ export const AuthModal: React.FC<AuthModalProps> = ({
 
           <button
             type="button"
-            onClick={fillSuperAdmin}
-            className="w-full flex items-center justify-between rounded-2xl border border-amber-500/40 bg-amber-950/20 px-4 py-2.5 text-xs text-amber-300 hover:bg-amber-950/40 transition group"
+            onClick={loginAsSuperAdmin}
+            disabled={isSubmitting}
+            className="w-full flex items-center justify-between rounded-2xl border border-amber-500/40 bg-amber-950/20 px-4 py-2.5 text-xs text-amber-300 hover:bg-amber-950/40 transition group disabled:opacity-50"
           >
             <div className="flex items-center gap-2.5">
               <ShieldCheck className="h-5 w-5 text-amber-400" />
@@ -246,7 +263,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
               </div>
             </div>
             <span className="rounded-lg bg-amber-500/20 px-2.5 py-1 text-[10px] font-mono text-amber-300 font-bold border border-amber-500/30">
-              تعبئة تلقائية
+              دخول مباشر فوري
             </span>
           </button>
 

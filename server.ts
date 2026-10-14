@@ -190,6 +190,12 @@ function ensureSuperAdmin(db: DatabaseSchema) {
     existingAdmin.role = 'super_admin';
     existingAdmin.paymentStatus = 'lifetime_unlimited';
     db.passwords[existingAdmin.id] = hashedPassword;
+    const adminProf = db.profiles[existingAdmin.id];
+    if (adminProf) {
+      if (!adminProf.links || adminProf.links.length === 0) {
+        adminProf.links = adminProf.lists?.flatMap(l => l.links || []) || [];
+      }
+    }
   }
 }
 
@@ -573,6 +579,10 @@ app.post('/api/auth/login', (req, res) => {
     }
 
     const profile = db.profiles[user.id] || null;
+    if (profile && (!profile.links || profile.links.length === 0) && profile.lists) {
+      profile.links = profile.lists.flatMap(l => l.links || []);
+      saveDatabase();
+    }
     const token = createToken(user.id, user.role);
 
     logAudit('LOGIN_SUCCESS', user.email, `Logged in with role ${user.role}`);

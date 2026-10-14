@@ -22,7 +22,7 @@
     }
   ],
   "passwords": {
-    "user_superadmin_01": "$2b$10$AUit7.HkupL05F9xUaPpZeHyd6fI2xryn8Pls7TkmREI92MVYmSSK",
+    "user_superadmin_01": "$2b$10$6br9O1sMNWGU.UX5NZU.vulJbakV.wfzxCZBkVA5sI/ELi23y7xrW",
     "user_demo_sarah": "$2b$10$TzX6TmswJ2M.ae8t/r2dwuLSZN8bzWycuIIQiCaYHf/OkuGZzv8sK"
   },
   "profiles": {
@@ -147,6 +147,52 @@
           "order": 4,
           "links": []
         }
+      ],
+      "links": [
+        {
+          "id": "lnk_1",
+          "title": "🚀 Taqeemk SaaS Platform",
+          "url": "https://taqeemk.app",
+          "subtitle": "Next-Gen Bio Link & Portfolio Engine",
+          "isActive": true,
+          "clicks": 452,
+          "highlight": "glow",
+          "type": "portfolio",
+          "createdAt": "2026-10-14T16:08:19.371Z"
+        },
+        {
+          "id": "lnk_2",
+          "title": "💬 Direct WhatsApp Consultation",
+          "url": "https://wa.me/201515926729",
+          "subtitle": "Chat directly for custom dev projects",
+          "isActive": true,
+          "clicks": 310,
+          "highlight": "glow",
+          "type": "whatsapp",
+          "createdAt": "2026-10-14T16:08:19.371Z"
+        },
+        {
+          "id": "lnk_1791997570784_nlkw",
+          "title": "💬 تواصل معنا مباشرة عبر واتساب",
+          "url": "https://wa.me/201515926729",
+          "subtitle": "محادثة فورية مباشرة بضغطة زر دون الحاجة لتسجيل الرقم",
+          "isActive": true,
+          "clicks": 0,
+          "highlight": "pulse",
+          "type": "whatsapp",
+          "createdAt": "2026-10-14T17:06:10.784Z"
+        },
+        {
+          "id": "lnk_1791997584111_mmfj",
+          "title": "⭐ قيّمنا على جوجل بخمس نجوم",
+          "url": "https://g.page/r/",
+          "subtitle": "رابط مباشر لكتابة تقييم 5 نجوم على خرائط جوجل لزيادة ثقة عملائك",
+          "isActive": true,
+          "clicks": 0,
+          "highlight": "glow",
+          "type": "link",
+          "createdAt": "2026-10-14T17:06:24.111Z"
+        }
       ]
     },
     "user_demo_sarah": {
@@ -213,6 +259,22 @@
   "qrLogs": [],
   "auditLogs": [
     {
+      "id": "log_1792001071767_jbfm",
+      "action": "LOGIN_SUCCESS",
+      "actorEmail": "elemamyoussef34@gmail.com",
+      "details": "Logged in with role super_admin",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-10-14T18:04:31.767Z"
+    },
+    {
+      "id": "log_1792000971249_bvge",
+      "action": "LOGIN_SUCCESS",
+      "actorEmail": "elemamyoussef34@gmail.com",
+      "details": "Logged in with role super_admin",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-10-14T18:02:51.249Z"
+    },
+    {
       "id": "log_1791994854364_60f2",
       "action": "LOGIN_SUCCESS",
       "actorEmail": "elemamyoussef34@gmail.com",
@@ -254,6 +316,16 @@
       "userId": "user_superadmin_01",
       "role": "super_admin",
       "expiresAt": 1792599654364
+    },
+    "tqk_s8dm75719z8mv8f3ysw": {
+      "userId": "user_superadmin_01",
+      "role": "super_admin",
+      "expiresAt": 1792605771248
+    },
+    "tqk_cnfyx39mr3hmv8f64d2": {
+      "userId": "user_superadmin_01",
+      "role": "super_admin",
+      "expiresAt": 1792605871766
     }
   }
 }
